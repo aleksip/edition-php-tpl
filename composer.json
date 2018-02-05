@@ -1,0 +1,58 @@
+{
+    "name": "aleksip/edition-php-tpl",
+    "description": "Pattern Lab Edition for .tpl.php templates",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Aleksi Peebles",
+            "email": "aleksi@iki.fi"
+        },
+        {
+            "name": "Dave Olsen",
+            "email": "dmolsen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "pattern-lab/core": "^2.0.0",
+        "aleksip/patternengine-tpl": "^1.0.0",
+        "aleksip/styleguidekit-tpl-default": "^1.0.0",
+        "aleksip/plugin-data-transform": "^1.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "PatternLab":   "core/src/"
+        }
+    },
+    "minimum-stability": "beta",
+    "scripts": {
+        "post-install-cmd": [
+            "PatternLab\\Installer::postInstallCmd"
+        ],
+        "post-update-cmd": [
+            "PatternLab\\Installer::postUpdateCmd"
+        ],
+        "post-root-package-install": [
+            "PatternLab\\Installer::setProjectInstall",
+            "PatternLab\\Installer::getSuggestedStarterKits",
+            "PatternLab\\Installer::getConfigOverrides"
+        ],
+        "post-package-install": [
+            "PatternLab\\Installer::postPackageInstall"
+        ],
+        "post-package-update": [
+            "PatternLab\\Installer::postPackageUpdate"
+        ],
+        "pre-package-uninstall": [
+            "PatternLab\\Installer::prePackageUninstall"
+        ]
+    },
+    "extra": {
+        "patternlab": {
+            "starterKitSuggestions": [
+                "aleksip/starterkit-tpl-base"
+            ]
+        }
+    }
+}
