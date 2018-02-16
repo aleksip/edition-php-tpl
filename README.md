@@ -11,6 +11,7 @@ The Edition for PHPTemplate comes with the following components:
 * `aleksip/patternengine-tpl`: [GitHub](https://github.com/aleksip/patternengine-php-tpl), [Packagist](https://packagist.org/packages/aleksip/patternengine-tpl)
 * `pattern-lab/styleguidekit-assets-default`: [GitHub](https://github.com/pattern-lab/styleguidekit-assets-default), [Packagist](https://packagist.org/packages/pattern-lab/styleguidekit-assets-default)
 * `aleksip/styleguidekit-tpl-default`: [GitHub](https://github.com/aleksip/styleguidekit-tpl-default), [Packagist](https://packagist.org/packages/aleksip/styleguidekit-tpl-default)
+* `aleksip/plugin-data-transform`: [GitHub](https://github.com/aleksip/plugin-data-transform), [Packagist](https://packagist.org/packages/aleksip/plugin-data-transform)
 
 
 ## Installing
