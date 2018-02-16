@@ -1,6 +1,6 @@
 {
     "name": "aleksip/edition-php-tpl",
-    "description": "Pattern Lab Edition for .tpl.php templates",
+    "description": "Pattern Lab Edition for PHPTemplate",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [
